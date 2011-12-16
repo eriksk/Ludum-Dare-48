@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gex", "Gex\Gex.csproj", "{B223A080-953A-40F2-B0F5-7A37D157E662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LudumDare", "LudumDare\LudumDare\LudumDare.csproj", "{2765A6ED-4B26-4738-9B92-4F992231FD1B}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "LudumDareContent", "LudumDare\LudumDareContent\LudumDareContent.contentproj", "{50D1FA40-9FC8-45DE-B7A5-835BF194D8AA}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B223A080-953A-40F2-B0F5-7A37D157E662}.Debug|x86.ActiveCfg = Debug|x86
+		{B223A080-953A-40F2-B0F5-7A37D157E662}.Debug|x86.Build.0 = Debug|x86
+		{B223A080-953A-40F2-B0F5-7A37D157E662}.Release|x86.ActiveCfg = Release|x86
+		{B223A080-953A-40F2-B0F5-7A37D157E662}.Release|x86.Build.0 = Release|x86
+		{2765A6ED-4B26-4738-9B92-4F992231FD1B}.Debug|x86.ActiveCfg = Debug|x86
+		{2765A6ED-4B26-4738-9B92-4F992231FD1B}.Debug|x86.Build.0 = Debug|x86
+		{2765A6ED-4B26-4738-9B92-4F992231FD1B}.Release|x86.ActiveCfg = Release|x86
+		{2765A6ED-4B26-4738-9B92-4F992231FD1B}.Release|x86.Build.0 = Release|x86
+		{50D1FA40-9FC8-45DE-B7A5-835BF194D8AA}.Debug|x86.ActiveCfg = Debug|x86
+		{50D1FA40-9FC8-45DE-B7A5-835BF194D8AA}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
