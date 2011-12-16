@@ -1,4 +1,3 @@
-Content\fonts\font.xnb
 Content\audio\sounds.xgs
 Content\audio\Wave Bank.xwb
 Content\audio\Sound Bank.xsb

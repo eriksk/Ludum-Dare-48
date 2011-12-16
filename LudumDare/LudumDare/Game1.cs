@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using Gex.Audio;
 
 namespace LudumDare
 {
@@ -20,6 +21,8 @@ namespace LudumDare
         SpriteBatch spriteBatch;
 
         SpriteFont font;
+
+        AudioManager audio;
 
         public Game1()
         {
@@ -40,7 +43,8 @@ namespace LudumDare
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             font = Content.Load<SpriteFont>(@"fonts/font");
-
+            audio = new AudioManager();
+            audio.LoadContent(Content.RootDirectory + "/audio/");
 
         }
 
@@ -48,8 +52,17 @@ namespace LudumDare
         {
         }
 
+        float timer = 0;
         protected override void Update(GameTime gameTime)
         {
+            float time = (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+            timer += time;
+
+            if (timer > 3000)
+            {
+                timer = 0;
+                audio.PlaySound("pop");
+            }
 
             base.Update(gameTime);
         }

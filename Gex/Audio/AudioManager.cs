@@ -21,9 +21,9 @@ namespace Gex.Audio
 
         public void LoadContent(string path)
         {
-            engine = new AudioEngine(path);
-            sounds = new SoundBank(engine, path);
-            waves = new WaveBank(engine, path);
+            engine = new AudioEngine(path + "sounds.xgs");
+            sounds = new SoundBank(engine, path + "Sound Bank.xsb");
+            waves = new WaveBank(engine, path + "Wave Bank.xwb");
         }
 
         public void Clear()

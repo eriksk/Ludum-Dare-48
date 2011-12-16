@@ -49,8 +49,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="audio\" />
     <Folder Include="gfx\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\sounds.xap">
+      <Name>sounds</Name>
+      <Importer>XactImporter</Importer>
+      <Processor>XactProcessor</Processor>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
