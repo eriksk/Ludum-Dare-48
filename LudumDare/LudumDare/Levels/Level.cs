@@ -160,6 +160,7 @@ namespace LudumDare.Levels
 
         public void Update(float time, ParticleManager pMan, Character character)
         {
+            //Fan stuff
             Vector2 pos = Vector2.Zero;
             foreach (Fan s in fans)
             {
@@ -181,25 +182,29 @@ namespace LudumDare.Levels
                     switch (s.direction)
                     {
                         case Direction.Up:
-                            if (character.CollRect.Center.X > pos.X - CELL_SIZE && character.CollRect.Center.X < pos.X + CELL_SIZE)
+                            if (character.CollRect.Center.X > pos.X - CELL_SIZE && character.CollRect.Center.X < pos.X + CELL_SIZE &&
+                                character.CollRect.Center.Y <= pos.Y)
                             {
                                 applyForce = true;
                             }
                             break;
                         case Direction.Down:
-                            if (character.CollRect.Center.X > pos.X - CELL_SIZE && character.CollRect.Center.X < pos.X + CELL_SIZE)
+                            if (character.CollRect.Center.X > pos.X - CELL_SIZE && character.CollRect.Center.X < pos.X + CELL_SIZE &&
+                                character.CollRect.Center.Y <= pos.Y)
                             {
                                 applyForce = true;
                             }
                             break;
                         case Direction.Left:
-                            if (character.CollRect.Center.Y > pos.Y - CELL_SIZE && character.CollRect.Center.Y < pos.Y + CELL_SIZE)
+                            if (character.CollRect.Center.Y > pos.Y - CELL_SIZE && character.CollRect.Center.Y < pos.Y + CELL_SIZE &&
+                                character.CollRect.Center.X <= pos.X)
                             {
                                 applyForce = true;
                             }
                             break;
                         case Direction.Right:
-                            if (character.CollRect.Center.Y > pos.Y - CELL_SIZE && character.CollRect.Center.Y < pos.Y + CELL_SIZE)
+                            if (character.CollRect.Center.Y > pos.Y - CELL_SIZE && character.CollRect.Center.Y < pos.Y + CELL_SIZE &&
+                                character.CollRect.Center.X >= pos.X)
                             {
                                 applyForce = true;
                             }
@@ -256,7 +261,6 @@ namespace LudumDare.Levels
                                         //Move to right side
                                         character.velocity.X = 0;
                                         character.position.X = tempRect.Right;
-                                        character.SetAnim("idle");
                                         //collRects.Add(tempRect);
                                     }
                                     else if (character.velocity.X > 0f)
@@ -264,7 +268,6 @@ namespace LudumDare.Levels
                                         //Move to left side
                                         character.velocity.X = 0;
                                         character.position.X = tempRect.Left - character.CollRect.Width;
-                                        character.SetAnim("idle");
                                         //collRects.Add(tempRect);
                                     }
                                 }
@@ -428,11 +431,18 @@ namespace LudumDare.Levels
         List<Rectangle> collRects = new List<Rectangle>();
         public void Draw(SpriteBatch sb, Character character, Texture2D pixel)
         {
-            for (int i = 0; i < grid.GetLength(0); i++)
+            int col = (int)Math.Floor(character.CollRect.Center.X / (CELL_SIZE * 2f));
+            int row = (int)Math.Floor(character.CollRect.Center.Y / (CELL_SIZE * 2f));
+            
+            for (int i = col - 16; i < col + 16; i++)
             {
-                for (int j = 0; j < grid.GetLength(1); j++)
+                for (int j = row - 16; j < row + 16; j++)
                 {
-                    sb.Draw(texture, new Vector2(i * (CELL_SIZE * 2), j * (CELL_SIZE * 2)), sources[(Cell)grid[i, j]], Color.White, 0f, Vector2.Zero, 2f, SpriteEffects.None, 1f);
+                    if (i > -1 && i < grid.GetLength(0) &&
+                        j > -1 && j < grid.GetLength(1))
+                    {
+                        sb.Draw(texture, new Vector2(i * (CELL_SIZE * 2), j * (CELL_SIZE * 2)), sources[(Cell)grid[i, j]], Color.White, 0f, Vector2.Zero, 2f, SpriteEffects.None, 1f);
+                    }
                 }
             }
 

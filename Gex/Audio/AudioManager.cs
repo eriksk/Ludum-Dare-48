@@ -41,9 +41,11 @@ namespace Gex.Audio
         }
         public void PlaySong(string name)
         {
+            /* TODO: UNCOMMENT FOR THE LOVE OF SCIENCE!
             Cue c = sounds.GetCue(name);
             songs.Add(name, c);
             c.Play();
+             * */
         }        
         public void PauseSong(string name)
         {
@@ -52,6 +54,25 @@ namespace Gex.Audio
         public void ResumeSong(string name)
         {
             songs[name].Resume();
+        }
+        public void PauseAll()
+        {
+            foreach (KeyValuePair<string, Cue> c in songs)
+            {
+                c.Value.Pause();
+            }
+        }
+        public void ResumeAll()
+        {
+            foreach (KeyValuePair<string, Cue> c in songs)
+            {
+                c.Value.Resume();
+            }
+        }
+
+        public void Update()
+        {
+            engine.Update();
         }
     }
 }

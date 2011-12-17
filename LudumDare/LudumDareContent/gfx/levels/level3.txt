@@ -1,0 +1,7 @@
+rain=0
+fan=col:7&row:10&dir:up&power:80
+fan=col:2&row:26&dir:right&power:40
+fan=col:5&row:32&dir:up&power:50
+fan=col:9&row:24&dir:up&power:75
+fan=col:9&row:13&dir:up&power:50
+fan=col:12&row:11&dir:right&power:40

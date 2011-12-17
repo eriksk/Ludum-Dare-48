@@ -10,8 +10,10 @@ Content\gfx\pixel.xnb
 Content\gfx\levels\level2.xnb
 Content\gfx\fan.xnb
 Content\gfx\sign.xnb
+Content\gfx\levels\level3.xnb
 Content\audio\sounds.xgs
 Content\audio\Wave Bank.xwb
 Content\audio\Sound Bank.xsb
+Content\gfx\levels\level3.txt
 Content\gfx\levels\level2.txt
 Content\gfx\levels\level1.txt

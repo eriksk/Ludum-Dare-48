@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level1.xnb</Output>
-      <Time>2011-12-17T16:02:16.5985387+01:00</Time>
+      <Time>2011-12-17T19:54:56.3347045+01:00</Time>
     </Item>
     <Item>
       <Source>gfx\sky.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level2.xnb</Output>
-      <Time>2011-12-17T17:33:48.3400184+01:00</Time>
+      <Time>2011-12-17T17:49:19.1773867+01:00</Time>
     </Item>
     <Item>
       <Source>gfx\fan.png</Source>
@@ -108,6 +108,15 @@
       <Options>None</Options>
       <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\sign.xnb</Output>
       <Time>2011-12-17T15:45:41.0621217+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level3.png</Source>
+      <Name>gfx\levels\level3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level3.xnb</Output>
+      <Time>2011-12-17T20:12:05.5498982+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

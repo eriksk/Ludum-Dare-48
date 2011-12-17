@@ -48,9 +48,10 @@ namespace LudumDare
         ParticleManager pMan;
 
         bool paused = false;
-        int currentLevel = 2;
+        int currentLevel = 3;
 
         float currentDeath = 0, deathWait = 3000f;
+        ProgressBar fadeIn = new ProgressBar(2000f);
 
         public Game1()
         {
@@ -68,8 +69,7 @@ namespace LudumDare
 
             base.Initialize();
         }
-
-
+        
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
@@ -101,6 +101,9 @@ namespace LudumDare
             pMan = new ParticleManager();
             character = new Character();
             currentLevel--;
+            //Play song
+            audio.PlaySong("Josh");
+            audio.ResumeAll();
             NextLevel();
         }
         public void NextLevel()
@@ -110,6 +113,7 @@ namespace LudumDare
             pMan.LoadContent(Content, level.script);
             character.LoadContent(Content);
             character.position = level.start * SourceRectangle.CELL_SIZE * 2f;
+            fadeIn.Reset();
         }
         public void RestartLevel()
         {
@@ -117,6 +121,7 @@ namespace LudumDare
             pMan.LoadContent(Content, level.script);
             character.LoadContent(Content);
             character.position = level.start * SourceRectangle.CELL_SIZE * 2f;
+            fadeIn.Reset();
         }
 
         protected override void UnloadContent()
@@ -126,10 +131,26 @@ namespace LudumDare
         float blurFactor = 1f;
         protected override void Update(GameTime gameTime)
         {
-            if (input.KeyClicked(Keys.Escape))
+            if (!paused)
             {
-                paused = !paused;
-                //TODO: pause music etc...
+                if (input.KeyClicked(Keys.Escape))
+                {
+                    paused = true;
+                    audio.PlaySound("blip");
+                    audio.PauseAll();
+                }
+            }
+            else if (paused)
+            {
+                if (input.KeyClicked(Keys.Escape))
+                {
+                    this.Exit();
+                }
+                if (input.KeyClicked(Keys.Enter))
+                {
+                    paused = false;
+                    audio.ResumeAll();
+                }
             }
 
             float time = (float)gameTime.ElapsedGameTime.TotalMilliseconds;
@@ -167,10 +188,17 @@ namespace LudumDare
                     NextLevel();
                 }
             }
+            else
+            {
+
+            }
+            fadeIn.Update(time);
             input.Update(time);
             cam.Move(character.position);
             cam.Update(time);
             hud.Update(time);
+            audio.Update();
+
             base.Update(gameTime);
         }
 
@@ -212,8 +240,17 @@ namespace LudumDare
                 spriteBatch.Begin();
                 spriteBatch.Draw(pixel, new Rectangle(0, 0, width, height), Color.Black * 0.8f);
                 spriteBatch.DrawString(font, "PAUSED", new Vector2(width, height) / 2f, Color.White, 0f, font.MeasureString("PAUSED") / 2f, 1f, SpriteEffects.None, 1f);
+                const string psMessage = "ENTER = RESUME";
+                spriteBatch.DrawString(font, psMessage, new Vector2(width / 2f, height / 2f + 60), Color.Green, 0f, font.MeasureString(psMessage) / 2f, 1f, SpriteEffects.None, 1f);
+                const string escMessage = "ESC = EXIT GAME";
+                spriteBatch.DrawString(font, escMessage, new Vector2(width / 2f, height / 2f + 90), Color.Red, 0f, font.MeasureString(escMessage) / 2f, 1f, SpriteEffects.None, 1f);
                 spriteBatch.End();
             }
+
+            //Fade in
+            spriteBatch.Begin();
+            spriteBatch.Draw(pixel, new Rectangle(0, 0, width, height), Color.Black * (1f - fadeIn.Progress));
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

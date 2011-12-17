@@ -23,3 +23,5 @@ C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level2.txt
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\fan.xnb
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\sign.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level3.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level3.txt
