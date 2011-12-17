@@ -25,7 +25,8 @@ namespace LudumDare.Particles
             sources = new Rectangle[] { 
                 SourceRectangle.Create(0, 0, 1, 1, cellSize),
                 SourceRectangle.Create(1, 0, 1, 1, cellSize),
-                SourceRectangle.Create(2, 0, 1, 1, cellSize)
+                SourceRectangle.Create(2, 0, 1, 1, cellSize),
+                SourceRectangle.Create(3, 0, 1, 1, cellSize)
             };
         }
 
@@ -62,6 +63,30 @@ namespace LudumDare.Particles
             }                
         }
 
+        public void BloodSplat(Vector2 position)
+        {
+            for (int i = 0; i < 128; i++)
+            {
+                Particle p = particles.Pop();
+                p.position.X = position.X + Utility.Rand(-32, 32);
+                p.position.Y = position.Y + Utility.Rand(-32, 32);
+                p.current = 0;
+                p.duration = Utility.Rand(3000, 5000);
+                p.source = 3;
+                p.origin.X = sources[p.source].Width / 2f;
+                p.origin.Y = sources[p.source].Height / 2f;
+                p.velocity.X = Utility.Rand(-0.2f, 0.2f);
+                p.velocity.Y = Utility.Rand(-0.8f, -0.2f);
+                p.position.X += p.velocity.X * 32; //Start offset
+                p.position.Y += p.velocity.Y * 32;
+                p.color = Color.White;
+                p.scale = Utility.Rand(0.3f, 1f);
+                p.rotation = Utility.Rand(2);
+                p.rotval = Utility.Rand(-0.05f, 0.05f);
+                p.gravity = true;
+            }     
+        }
+
         float current = 0, interval = 300;
         public void Update(float time, Character character)
         {
@@ -93,11 +118,16 @@ namespace LudumDare.Particles
             {
                 Particle p = particles[i];
                 p.current += time;
+                if (p.gravity)
+                {
+                    p.velocity.Y += 0.001f * time;
+                }
                 p.position.X += p.velocity.X * time;
                 p.position.Y += p.velocity.Y * time;
                 p.rotation += p.rotval * time;
                 if (p.current > p.duration)
                 {
+                    p.gravity = false;
                     particles.Push(i--);
                 }
             }

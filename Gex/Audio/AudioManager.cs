@@ -41,11 +41,11 @@ namespace Gex.Audio
         }
         public void PlaySong(string name)
         {
-            /* TODO: UNCOMMENT FOR THE LOVE OF SCIENCE!
+            ///* TODO: UNCOMMENT FOR THE LOVE OF SCIENCE!
             Cue c = sounds.GetCue(name);
             songs.Add(name, c);
             c.Play();
-             * */
+            // * */
         }        
         public void PauseSong(string name)
         {

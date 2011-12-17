@@ -28,6 +28,7 @@ namespace LudumDare.Characters
         bool flipped = false;
         Rectangle collRect;
         public bool alive = true;
+        public bool splatted = false;
 
         public Character()
             :base()
@@ -39,7 +40,8 @@ namespace LudumDare.Characters
         {
             alive = true;
             SetAnim("jump");
-            inAir = true;
+            inAir = true; 
+            splatted = false;
         }
 
         public Character LoadContent(ContentManager content)

@@ -1,6 +1,8 @@
 rain=1
 sign=col:6&row:27&text:Hey Josh, you woke up? Use the/l/arrows to move and the/l/space button to jump... Hurry up!
 sign=col:36&row:29&text:Good, use the fan/l/to get over obstacles.
-sign=col:68&row:29&text:We are all waiting for you, hurry up.
+sign=col:46&row:29&text:That's the fan I was/l/talking about...
+sign=col:52&row:20&text:Well isn't that/l/fan-tastic!
+sign=col:68&row:29&text:We are all waiting for/l/you, hurry up.
 sign=col:91&row:27&text:Almost there.
 fan=col:49&row:29&dir:up&power:50

@@ -1,4 +1,6 @@
 rain=0
+sign=col:3&row:31&text:Again, sorry.../l/It almost got us this time,/l/run!
+sign=col:10&row:4&text:Spikes everywhere,/l/watch your step.
 fan=col:7&row:10&dir:up&power:80
 fan=col:2&row:26&dir:right&power:40
 fan=col:5&row:32&dir:up&power:50

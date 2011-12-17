@@ -1,0 +1,2 @@
+rain=0
+sign=col:14&row:14&text:Again, sorry.../l/It almost got oss this time,/l/run!

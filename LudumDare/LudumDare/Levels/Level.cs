@@ -150,6 +150,17 @@ namespace LudumDare.Levels
                     {
                         start = new Vector2(i, j);
                         val = Cell.Start;
+                    }else if(col == Color.Blue)
+                    {
+                        val = Cell.Stone;
+                    }
+                    else if (col == Color.Pink)
+                    {
+                        val = Cell.StoneFloor;
+                    }
+                    else if (col == Color.Orange)
+                    {
+                        val = Cell.StoneSky;
                     }
                     array[i, j] = (int)val;
                 }

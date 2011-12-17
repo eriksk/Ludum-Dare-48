@@ -8,7 +8,7 @@
       <Processor>FontTextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\fonts\offbeatgames.xnb</Output>
-      <Time>2011-12-17T00:11:55.0560523+01:00</Time>
+      <Time>2011-12-17T22:51:58.2478575+01:00</Time>
     </Item>
     <Item>
       <Source>gfx\grid.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\particles.xnb</Output>
-      <Time>2011-12-17T16:19:01.689169+01:00</Time>
+      <Time>2011-12-17T23:22:11.9601697+01:00</Time>
     </Item>
     <Item>
       <Source>gfx\pixel.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level2.xnb</Output>
-      <Time>2011-12-17T17:49:19.1773867+01:00</Time>
+      <Time>2011-12-17T22:58:12.1658391+01:00</Time>
     </Item>
     <Item>
       <Source>gfx\fan.png</Source>
@@ -116,7 +116,34 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level3.xnb</Output>
-      <Time>2011-12-17T20:12:05.5498982+01:00</Time>
+      <Time>2011-12-17T20:17:06.9931766+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\logo.png</Source>
+      <Name>gfx\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\logo.xnb</Output>
+      <Time>2011-12-17T22:31:02.9604563+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\gameOver.png</Source>
+      <Name>gfx\gameOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\gameOver.xnb</Output>
+      <Time>2011-12-17T22:40:28.825812+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level4.png</Source>
+      <Name>gfx\levels\level4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level4.xnb</Output>
+      <Time>2011-12-17T23:11:37.0845508+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

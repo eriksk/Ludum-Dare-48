@@ -11,9 +11,13 @@ Content\gfx\levels\level2.xnb
 Content\gfx\fan.xnb
 Content\gfx\sign.xnb
 Content\gfx\levels\level3.xnb
+Content\gfx\logo.xnb
+Content\gfx\gameOver.xnb
+Content\gfx\levels\level4.xnb
 Content\audio\sounds.xgs
 Content\audio\Wave Bank.xwb
 Content\audio\Sound Bank.xsb
+Content\gfx\levels\level4.txt
 Content\gfx\levels\level3.txt
 Content\gfx\levels\level2.txt
 Content\gfx\levels\level1.txt

@@ -9,5 +9,6 @@ namespace LudumDare.Particles
     class Particle : Entity
     {
         public float current, duration, rotval;
+        public bool gravity;
     }
 }
