@@ -21,7 +21,7 @@ namespace Gex.Input
         }
         public bool KeyClicked(Keys key)
         {
-            return keys.IsKeyUp(key) && oldKeys.IsKeyDown(key);
+            return oldKeys.IsKeyUp(key) && keys.IsKeyDown(key);
         }
         public bool LMClick()
         {

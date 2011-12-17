@@ -29,6 +29,14 @@ namespace Gex.Util
             return (float)Math.Atan2(v.Y, v.X);
         }
 
+        static Vector2 temp = Vector2.Zero;
+        public static Vector2 AngleFrom(float angle)
+        {
+            temp.X = (float)Math.Cos(angle);
+            temp.Y = (float)Math.Sin(angle);
+            return temp;
+        }
+
         /// <summary>
         /// Gets a normalized unit vector direction
         /// </summary>

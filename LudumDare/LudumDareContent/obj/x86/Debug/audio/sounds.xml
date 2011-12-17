@@ -9,6 +9,10 @@
     Windows Bank Path Edited = 0;
     Seek Tables = 1;
     Compression Preset Name = Compression Preset;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 2820160255;
+    PC Bank Last Modified High = 30194745;
     Bank Last Revised Low = 2728538621;
     Bank Last Revised High = 30194745;
 

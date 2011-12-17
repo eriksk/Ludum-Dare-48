@@ -1,0 +1,5 @@
+rain=0
+sign=col:14&row:14&text:We had to move on.../l/Something happened, hurry up...
+sign=col:46&row:23&text:Josh, look out for the spikes on the floor.
+fan=col:44&row:23&dir:up&power:40
+fan=col:60&row:50&dir:left&power:80

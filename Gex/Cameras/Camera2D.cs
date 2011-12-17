@@ -27,6 +27,11 @@ namespace Gex.Cameras
                 return matrix;
             }
         }
+        public float Speed
+        {
+            get { return speed; }
+            set { speed = value; }
+        }
 
         public void Move(Vector2 destination)
         {

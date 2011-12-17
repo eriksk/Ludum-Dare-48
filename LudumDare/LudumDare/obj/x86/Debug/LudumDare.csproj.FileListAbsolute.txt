@@ -1,6 +1,5 @@
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\fonts\font.xnb
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\LudumDare.exe
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\LudumDare.pdb
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Gex.dll
@@ -10,3 +9,17 @@ C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\obj\
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\audio\sounds.xgs
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\audio\Wave Bank.xwb
 C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\audio\Sound Bank.xsb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\fonts\offbeatgames.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\grid.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\characters.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level1.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\sky.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\sky_blurred.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\overlay.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\particles.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level1.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\pixel.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level2.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\levels\level2.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\fan.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Debug\Content\gfx\sign.xnb

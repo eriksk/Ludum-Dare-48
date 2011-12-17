@@ -1,4 +1,17 @@
-Content\fonts\font.xnb
+Content\fonts\offbeatgames.xnb
+Content\gfx\grid.xnb
+Content\gfx\characters.xnb
+Content\gfx\levels\level1.xnb
+Content\gfx\sky.xnb
+Content\gfx\sky_blurred.xnb
+Content\gfx\overlay.xnb
+Content\gfx\particles.xnb
+Content\gfx\pixel.xnb
+Content\gfx\levels\level2.xnb
+Content\gfx\fan.xnb
+Content\gfx\sign.xnb
 Content\audio\sounds.xgs
 Content\audio\Wave Bank.xwb
 Content\audio\Sound Bank.xsb
+Content\gfx\levels\level2.txt
+Content\gfx\levels\level1.txt
