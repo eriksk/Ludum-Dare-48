@@ -1,0 +1,2 @@
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDareContent\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDareContent\obj\x86\Release\audio\sounds.xml

@@ -1,0 +1,6 @@
+rain=1
+sign=col:9&row:7&text:Don't give up...
+sign=col:20&row:11&text:It won't get to you if you hurry.
+sign=col:14&row:15&text:We got away/l/so why shouldn't you?
+fan=col:31&row:7&dir:right&power:60
+fan=col:3&row:15&dir:right&power:30

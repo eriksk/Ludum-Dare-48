@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>gfx\characters.png</Source>
+      <Name>gfx\characters</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\characters.xnb</Output>
+      <Time>2011-12-18T13:31:43.6685189+01:00</Time>
+    </Item>
+    <Item>
+      <Source>fonts\offbeatgames.png</Source>
+      <Name>fonts\offbeatgames</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\fonts\offbeatgames.xnb</Output>
+      <Time>2011-12-17T22:51:58.2478575+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\grid.png</Source>
+      <Name>gfx\grid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\grid.xnb</Output>
+      <Time>2011-12-18T13:31:56.8781964+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level1.png</Source>
+      <Name>gfx\levels\level1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level1.xnb</Output>
+      <Time>2011-12-17T19:54:56.3347045+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\sky.png</Source>
+      <Name>gfx\sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\sky.xnb</Output>
+      <Time>2011-12-17T09:51:53.6838914+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\sky_blurred.png</Source>
+      <Name>gfx\sky_blurred</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\sky_blurred.xnb</Output>
+      <Time>2011-12-17T09:54:05.5344328+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\overlay.png</Source>
+      <Name>gfx\overlay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\overlay.xnb</Output>
+      <Time>2011-12-17T10:01:56.4853697+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\particles.png</Source>
+      <Name>gfx\particles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\particles.xnb</Output>
+      <Time>2011-12-18T13:32:10.5509326+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level2.png</Source>
+      <Name>gfx\levels\level2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level2.xnb</Output>
+      <Time>2011-12-18T13:53:19.3911425+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\fan.png</Source>
+      <Name>gfx\fan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\fan.xnb</Output>
+      <Time>2011-12-17T15:45:39.8319654+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level3.png</Source>
+      <Name>gfx\levels\level3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level3.xnb</Output>
+      <Time>2011-12-17T20:17:06.9931766+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\gameOver.png</Source>
+      <Name>gfx\gameOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\gameOver.xnb</Output>
+      <Time>2011-12-17T22:40:28.825812+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level4.png</Source>
+      <Name>gfx\levels\level4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level4.xnb</Output>
+      <Time>2011-12-17T23:11:37.0845508+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level5.png</Source>
+      <Name>gfx\levels\level5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level5.xnb</Output>
+      <Time>2011-12-18T14:00:23.1964488+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level6.png</Source>
+      <Name>gfx\levels\level6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level6.xnb</Output>
+      <Time>2011-12-18T12:19:35.6807087+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level7.png</Source>
+      <Name>gfx\levels\level7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level7.xnb</Output>
+      <Time>2011-12-18T12:36:26.6205817+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\levels\level8.png</Source>
+      <Name>gfx\levels\level8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level8.xnb</Output>
+      <Time>2011-12-18T12:54:03.0794606+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\pixel.png</Source>
+      <Name>gfx\pixel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\pixel.xnb</Output>
+      <Time>2011-12-17T14:06:27.6476725+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\sign.png</Source>
+      <Name>gfx\sign</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\sign.xnb</Output>
+      <Time>2011-12-17T15:45:41.0621217+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gfx\logo.png</Source>
+      <Name>gfx\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\logo.xnb</Output>
+      <Time>2011-12-17T22:31:02.9604563+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDareContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDareContent\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-04-14T19:52:34.4660931+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

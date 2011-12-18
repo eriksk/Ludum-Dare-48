@@ -40,33 +40,33 @@ namespace LudumDare.Characters
         {
             alive = true;
             SetAnim("jump");
-            inAir = true; 
+            inAir = true;
             splatted = false;
+            velocity = Vector2.Zero;
         }
 
         public Character LoadContent(ContentManager content)
         {
             texture = content.Load<Texture2D>(@"gfx/characters");
-            animations = new Dictionary<string,Rectangle[]>();
-            int cellSize = 16;
 
             intervals = new Dictionary<string, float>();
             intervals.Add("idle", 1000);
             intervals.Add("walk", 175);
             intervals.Add("jump", 1000);
 
+            animations = new Dictionary<string, Rectangle[]>();
             animations.Add("idle", new Rectangle[] { 
-                SourceRectangle.Create(0, 0, 1, 1, cellSize),
-                SourceRectangle.Create(1, 0, 1, 1, cellSize),
+                SourceRectangle.Create(0, 0, 1, 1),
+                SourceRectangle.Create(1, 0, 1, 1),
             });
 
             animations.Add("walk", new Rectangle[] { 
-                SourceRectangle.Create(2, 0, 1, 1, cellSize),
-                SourceRectangle.Create(3, 0, 1, 1, cellSize)
+                SourceRectangle.Create(2, 0, 1, 1),
+                SourceRectangle.Create(3, 0, 1, 1)
             });
 
             animations.Add("jump", new Rectangle[] { 
-                SourceRectangle.Create(4, 0, 1, 1, cellSize)
+                SourceRectangle.Create(4, 0, 1, 1)
             });
 
             Reset();
@@ -137,8 +137,8 @@ namespace LudumDare.Characters
                     velocity.Y += 0.003f * time;
                 }
                 //Friction
-                float maxSpeed = 0.4f;
-                float friction = 0.003f;
+                float maxSpeed = 0.4f;                
+                float friction = 0.003f;                
                 if (velocity.X > 0f)
                 {
                     velocity.X -= friction * time;
@@ -223,7 +223,7 @@ namespace LudumDare.Characters
         {
             if (alive)
             {
-                sb.Draw(texture, position, animations[currentAnim][currentFrame], Color.White, 0f, Vector2.Zero, 4f, flipped ? SpriteEffects.FlipHorizontally : SpriteEffects.None, 1f);
+                sb.Draw(texture, position, animations[currentAnim][currentFrame], Color.White, 0f, Vector2.Zero, 2f, flipped ? SpriteEffects.FlipHorizontally : SpriteEffects.None, 1f);
             }
             //sb.Draw(pixel, collRect, Color.Green * 0.4f);
         }

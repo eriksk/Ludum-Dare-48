@@ -1,42 +1,21 @@
--------------------------------------------------
-ooooo        oooooooooo.         .o    .ooooo.   
-`888'        `888'   `Y8b      .d88   d88'   `8. 
- 888          888      888   .d'888   Y88..  .8' 
- 888          888      888 .d'  888    `88888b.  
- 888          888      888 88ooo888oo .8'  ``88b 
- 888       o  888     d88'      888   `8.   .88P 
-o888ooooood8 o888bood8P'       o888o   `boood8'  
--------------------------------------------------
+------------------------------------------------
+  __            _       _____ _          
+  \ \  ___  ___| |__   /__   \ |__   ___ 
+   \ \/ _ \/ __| '_ \    / /\/ '_ \ / _ \
+/\_/ / (_) \__ \ | | |  / /  | | | |  __/
+\___/ \___/|___/_| |_|  \/   |_| |_|\___|
+   ___                _____          _   _      
+  / __\_ _ _ __      /__   \__ _ ___| |_(_) ___ 
+ / _\/ _` | '_ \ _____ / /\/ _` / __| __| |/ __|
+/ / | (_| | | | |_____/ / | (_| \__ \ |_| | (__ 
+\/   \__,_|_| |_|     \/   \__,_|___/\__|_|\___|
+------------------------------------------------
 
-Theme:ALONE
+Theme:Alone
 Platform: Windows
 Technology: XNA, C#
 Resolution: 800x600 only
 
--::Game::-
 Game Name:Josh The Fan-Tastic
 Type:Sidescroller
-Setting:Forest
-Goal:Survive
-Story:Character walks into forest alone, ends up lost and tries to find way out?
-Mechanics:???
-Punchline: He's alone...
-
-
--::backlog::-
-Story: Ending: Josh finds out that he actually is alone.
-
--::in progress::-
-Making levels
-Blood on death.
-
--::done::-
-Signs
-Fans
-
--::testing:--
-Test every level, die on every level, complete every level.
-READ ALL SIGNS CAREFULLY!
-
--::bugs::-
-Font is too tight: FIXED
+Description:Josh is alone in a strange place, his only goal is to make it out alive.

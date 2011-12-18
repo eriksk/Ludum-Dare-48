@@ -13,6 +13,7 @@ namespace Gex.Audio
         private SoundBank sounds;
         private WaveBank waves;
         private Dictionary<string, Cue> songs;
+        private Dictionary<string, AudioCategory> categories;
 
         public AudioManager()
         {
@@ -24,6 +25,17 @@ namespace Gex.Audio
             engine = new AudioEngine(path + "sounds.xgs");
             sounds = new SoundBank(engine, path + "Sound Bank.xsb");
             waves = new WaveBank(engine, path + "Wave Bank.xwb");
+            categories = new Dictionary<string, AudioCategory>();
+            categories.Add("Music", engine.GetCategory("Music"));
+            categories.Add("Default", engine.GetCategory("Default"));
+        }
+
+        public void SetVolume(float volume)
+        {
+            foreach (AudioCategory c in categories.Values)
+            {
+                c.SetVolume(volume);
+            }
         }
 
         public void Clear()
@@ -41,11 +53,9 @@ namespace Gex.Audio
         }
         public void PlaySong(string name)
         {
-            ///* TODO: UNCOMMENT FOR THE LOVE OF SCIENCE!
             Cue c = sounds.GetCue(name);
             songs.Add(name, c);
             c.Play();
-            // * */
         }        
         public void PauseSong(string name)
         {

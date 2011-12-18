@@ -1,0 +1,15 @@
+rain=1
+sign=col:5&row:45&text:Be careful,/l/john didn't make it/l/through here...
+fan=col:8&row:45&dir:up&power:100
+fan=col:8&row:15&dir:right&power:80
+fan=col:27&row:20&dir:up&power:50
+fan=col:30&row:20&dir:down&power:20
+fan=col:30&row:34&dir:up&power:100
+fan=col:34&row:38&dir:left&power:80
+fan=col:26&row:43&dir:up&power:40
+fan=col:25&row:43&dir:up&power:40
+fan=col:24&row:43&dir:up&power:40
+fan=col:23&row:43&dir:up&power:40
+fan=col:18&row:43&dir:up&power:40
+fan=col:16&row:43&dir:up&power:40
+fan=col:12&row:43&dir:up&power:40

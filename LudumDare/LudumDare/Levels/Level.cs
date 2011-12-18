@@ -319,17 +319,11 @@ namespace LudumDare.Levels
                             case Cell.Spikes://Spikes
                                 if (character.CollRect.Intersects(tempRect))
                                 {
-                                    //Be gentle use a distance diff instead
-                                    if (Vector2.Distance(new Vector2(character.CollRect.Center.X, character.CollRect.Center.Y), new Vector2(tempRect.Center.X, tempRect.Center.Y)) < 32)
-                                    {
-                                        character.alive = false;
-                                    }
+                                    character.alive = false;
                                 }
                                 break;
 
                             default: //Collidable cell found         
-                                //TODO: check for death.
-
                                 if (character.CollRect.Intersects(tempRect))
                                 {
                                     if (character.inAir)

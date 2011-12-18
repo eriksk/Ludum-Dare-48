@@ -1,0 +1,5 @@
+rain=0
+sign=col:6&row:6&text:We had to continue,/l/it took katie this time too...
+fan=col:10&row:13&dir:right&power:100
+fan=col:17&row:30&dir:up&power:40
+fan=col:17&row:39&dir:up&power:60

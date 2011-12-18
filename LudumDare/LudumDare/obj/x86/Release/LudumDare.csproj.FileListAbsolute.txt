@@ -1,0 +1,43 @@
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\characters.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\fonts\offbeatgames.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\grid.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level1.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\sky.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\sky_blurred.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\overlay.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\particles.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level2.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\fan.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level3.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\gameOver.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level4.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level5.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level6.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level7.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level8.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\pixel.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\sign.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\logo.xnb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\audio\sounds.xgs
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\audio\Wave Bank.xwb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\audio\Sound Bank.xsb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level8.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level7.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level6.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level5.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level4.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level3.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level2.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Content\gfx\levels\level1.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Josh The Fan-Tastic.exe.manifest
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Josh The Fan-Tastic.application
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Josh The Fan-Tastic.exe
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Josh The Fan-Tastic.pdb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Gex.dll
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\bin\x86\Release\Gex.pdb
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\obj\x86\Release\Josh The Fan-Tastic.exe.manifest
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\obj\x86\Release\Josh The Fan-Tastic.application
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\obj\x86\Release\Josh The Fan-Tastic.exe
+C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDare\obj\x86\Release\Josh The Fan-Tastic.pdb

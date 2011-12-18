@@ -58,8 +58,8 @@ namespace LudumDare
         ParticleManager pMan;
 
         bool paused = false;
-        int currentLevel = 4;
-        int maxLevels = 4;
+        int currentLevel = 1;
+        int maxLevels = 8;
 
         float currentDeath = 0, deathWait = 3000f;
         ProgressBar fadeIn = new ProgressBar(2000f);
@@ -95,6 +95,8 @@ namespace LudumDare
 
             logoTex = Content.Load<Texture2D>(@"gfx/logo");
             input = new InputManager();
+            audio = new AudioManager();
+            audio.LoadContent(Content.RootDirectory + "/audio/");
 
             Thread loadThread = new Thread(LoadAssets);
             loadThread.Start();           
@@ -104,8 +106,6 @@ namespace LudumDare
         private void LoadAssets()
         {
             font = Content.Load<SpriteFont>(@"fonts/offbeatgames");
-            audio = new AudioManager();
-            audio.LoadContent(Content.RootDirectory + "/audio/");
             
             background = Content.Load<Texture2D>(@"gfx/sky");
             bgBlurred = Content.Load<Texture2D>(@"gfx/sky_blurred");

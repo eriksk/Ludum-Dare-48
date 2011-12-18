@@ -16,8 +16,8 @@ Global Settings
     Header File = C:\Users\Erik\Documents\Visual Studio 2010\Projects\Gex\LudumDare\LudumDareContent\audio\sounds.h;
     Exclude Category Names = 0;
     Exclude Variable Names = 0;
-    Last Modified Low = 194069365;
-    Last Modified High = 30194922;
+    Last Modified Low = 2355704933;
+    Last Modified High = 30195056;
 
     Category
     {
@@ -242,6 +242,8 @@ Wave Bank
     Xbox Bank Last Modified High = 0;
     PC Bank Last Modified Low = 194381365;
     PC Bank Last Modified High = 30194922;
+    Header Last Modified Low = 0;
+    Header Last Modified High = 0;
     Bank Last Revised Low = 130889254;
     Bank Last Revised High = 30194922;
 
@@ -345,8 +347,8 @@ Sound Bank
     Windows File = Win\Sound Bank.xsb;
     Xbox Bank Path Edited = 0;
     Windows Bank Path Edited = 0;
-    Bank Last Modified Low = 200621376;
-    Bank Last Modified High = 30194922;
+    Bank Last Modified Low = 2355974948;
+    Bank Last Modified High = 30195056;
     Header Last Modified High = 0;
     Header Last Modified Low = 0;
 
@@ -359,7 +361,7 @@ Sound Bank
 
         Category Entry
         {
-            Name = Default;
+            Name = Music;
         }
 
         Track
